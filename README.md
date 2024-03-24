@@ -1,62 +1,48 @@
 # Quartny
 
-## ChatGpt AI 🤖
+## ChatGpt AI
 
 ```
 from Quartny import Ai
-
-# Execute Chatgpt AI with the input text
 
 response = Ai.chatgpt("Write simple basic html website")
-
 print(response)
 
-# Execute Chatgpt AI with the input text with modes features
+# Available Modes Are "girlfriend", "anime", "animev2", "flirt", "santa", "elonmusk"
 
-# available modes are "girlfriend","anime","animev2","flirt","santa","elonmusk"
-
-response = Ai.chatgpt("hi babe","girlfriend")
-
+response = Ai.chatgpt("hi babe", "girlfriend")
 print(response)
-
 ```
 
-## ChatBot AI 🤖
+## ChatBot AI
 
 ```
 from Quartny import Ai
 
-# Execute Chatbot AI with the input text
-
-print(Ai.chatbot("hii"))
+print(Ai.chatbot("hello"))
 ```
 
-## BlackBox AI 🤖
+## BlackBox AI
 
 ```
 from Quartny import Ai
-
-# Execute blackbox AI with the input text
 
 print(Ai.blackbox("write flask app code"))
 ```
 
-## Gemini AI 🤖
+## Gemini AI
 
 ```
 from Quartny import Ai
-
-# Execute Gemini AI with the input text
 
 print(Ai.gemini("write flask app code"))
 ```
 
-## DataGpt AI 🤖
+## DataGpt AI
 
 ```
 from Quartny import Ai
 
-# Execute datagpt AI with the input text
 response = Ai.datagpt("what is data science")
 print(response)
 ```
@@ -65,6 +51,7 @@ print(response)
 
 ```
 from Quartny import Ai
+
 verse_data = Ai.bhagwatgita(1, 5)
 print(verse_data)
 ```
@@ -74,9 +61,7 @@ print(verse_data)
 ```
 from Quartny import Ai
 
-
 movie_data = Ai.imdb("The Godfather")
-
 print(movie_data)
 ```
 
@@ -84,6 +69,7 @@ print(movie_data)
 
 ```
 from Quartny import Ai
+
 keyword = "python"
 hashtags = Ai.hashtag(keyword)
 print(hashtags)
@@ -93,7 +79,8 @@ print(hashtags)
 
 ```
 from Quartny import Ai
-user_data = Ai.pypi("mukeshapi")
+
+user_data = Ai.pypi("Quartny")
 print(user_data)
 ```
 
@@ -101,7 +88,8 @@ print(user_data)
 
 ```
 from Quartny import Ai
-search_results = Ai.github("noob-mukesh")
+
+search_results = Ai.github("Quartny")
 print(search_results)
 ```
 
@@ -109,7 +97,8 @@ print(search_results)
 
 ```
 from Quartny import Ai
-search_results = Ai.repo("mukeshrobot")
+
+search_results = Ai.repo("QuartnyAPI")
 print(search_results)
 ```
 
