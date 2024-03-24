@@ -5,7 +5,7 @@ from setuptools import find_packages
 def version():
     Filename = "Quartny/__init__.py"
     with open(Filename) as co:
-        match = re.search(r"""^__version__ = ['"]([^'"]*)['"]""", so.read(), re.M)
+        match = re.search(r"""^__version__ = ['"]([^'"]*)['"]""", co.read(), re.M)
     if not match:
         raise RuntimeError("{} doesn't contain __version__".format(Filename))
     version = match.groups()[0]
