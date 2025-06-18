@@ -11,7 +11,7 @@ from base64 import b64decode as m
 from base64 import b64encode as n
 from requests_html import HTMLSession
 from PIL import Image, ImageDraw, ImageFont
-from Quartny.Func import payloads_response, advance_GPT_Mode, payload_8
+from Quartny.Funcs import payloads_response, advance_GPT_Mode, payload_8
 
 __version__ = "0.1.0"
 __all__ = ["Ai"]
