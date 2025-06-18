@@ -417,4 +417,4 @@ class Quartny:
         results=requests.get(f"{url}{city}")
         return results.json() 
     
-Ai = MukeshAPI()
+Ai: Quartny = Quartny()
